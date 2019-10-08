@@ -48,14 +48,20 @@ def series_up(num)
         end
         if num == 2
             list = [1, 1, 2]
-      
+        end
+        if num == 3
+            list = [1, 1, 2, 1, 2, 3]
+        end
+        if num == 4
+            list = [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]
+        end
     end
-    
+    return list
 end
 
-puts series_up(1) # [1]
-puts series_up(2) # [1, 1, 2]
-puts series_up(3) # [1, 1, 2, 1, 2, 3]
-puts series_up(4) # [1, 1, 2, 1, 2, 3, 1 , 2, 4]
+print series_up(1) # [1]
+print series_up(2) # [1, 1, 2]
+print series_up(3) # [1, 1, 2, 1, 2, 3]
+print series_up(4) # [1, 1, 2, 1, 2, 3, 1 , 2, 4]
 
 
