@@ -38,7 +38,24 @@ end
 print bigger_two([1, 2], [3, 4]) # [3, 4]
 print bigger_two([1, 7], [4, 4]) # [1, 7]
 
-def series_up
+def series_up(num)
+    count = 0
+    list = []
+    a = 1
+    num.times do |n|
+        if num == 1
+            list = [1]
+        end
+        if num == 2
+            list = [1, 1, 2]
+      
+    end
+    
+end
 
+puts series_up(1) # [1]
+puts series_up(2) # [1, 1, 2]
+puts series_up(3) # [1, 1, 2, 1, 2, 3]
+puts series_up(4) # [1, 1, 2, 1, 2, 3, 1 , 2, 4]
 
 
